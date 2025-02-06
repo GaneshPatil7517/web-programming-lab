@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Trends & Innovations</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #ffffff;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+        }
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        .navbar-brand {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #0ef;
+            text-shadow: 0 0 10px #0ef;
+        }
+        .blog-section {
+            padding: 60px 0;
+            text-align: center;
+        }
+        .blog-card {
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0, 238, 255, 0.2);
+            transition: transform 0.3s ease-in-out;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .blog-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 238, 255, 0.4);
+        }
+        .blog-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-bottom: 3px solid #0ef;
+        }
+        .blog-card h5 {
+            color: #0ef;
+        }
+        .blog-card p a {
+            color: #ff4081;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .blog-card p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tech Trends & Innovations</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-light" href="#ai">AI</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#gadgets">Gadgets</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#future">Future Tech</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container blog-section" id="ai">
+        <h2>Artificial Intelligence</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="blog-card">
+                    <img src="Image 1.jpg" alt="AI"> 
+                    <div class="p-4">
+                        <h5>How AI is Transforming Businesses</h5>
+                        <p>Discover how AI is reshaping industries worldwide. <a href="tech .html">Read more</a></p>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-card">
+                    <img src="image 2.jpg" alt="AI Ethics">
+                    <div class="p-4">
+                        <h5>The Ethics of AI Development</h5>
+                        <p>Understanding the moral concerns of AI. <a href="Ethics .html">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container blog-section" id="gadgets">
+        <h2>Latest Gadgets</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="blog-card">
+                    <img src="Image 3.jpg" alt="Smart Gadgets">
+                    <div class="p-4">
+                        <h5>Top 5 Smart Gadgets of 2025</h5>
+                        <p>Explore the latest innovations. <a href="Gadgets .html">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-card">
+                   <img src="Image 4.jpg" alt="Wearable Tech">
+                    <div class="p-4">
+                        <h5>Wearable Tech: The Future is Now</h5>
+                        <p>Discover the latest in wearables. <a href="wearable .html">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
