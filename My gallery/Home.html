@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photo Gallery</title>
+  <style>
+    /* Global Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Background with overlay */
+    body {
+      font-family: Arial, sans-serif;
+      background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://source.unsplash.com/1600x900/?abstract,technology') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .gallery-item {
+      flex: 1 1 calc(33.33% - 20px);
+      max-width: calc(33.33% - 20px);
+    }
+
+    .gallery-item a {
+      display: block;
+      text-decoration: none;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      display: block;
+      border-radius: 10px;
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .gallery-item img:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .gallery-item {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .gallery-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Tech Trends & Innovations Gallery</h2>
+    <div class="gallery">
+      <div class="gallery-item"><a href="image 1.html"><img src="Image1.jpg" alt="Image 1" height="200px"></a></div>
+      <div class="gallery-item"><a href="image 2.html"><img src="Image2.jpg" alt="Image 2" height="200px"></a></div>
+      <div class="gallery-item"><a href="image 3.html"><img src="Image3.jpg" alt="Image 3" height="200px"></a></div>
+      <div class="gallery-item"><a href="image 4.html"><img src="image4.jpg" alt=" Image 4" height="200px"></a></div>
+      <div class="gallery-item"><a href="image 5.html"><img src="image5.jpg" alt=" Image 5" height="200px"></a></div>
+      <div class="gallery-item"><a href="image 6.html"><img src="image6.jpg" alt=" Image 6"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 7.html"><img src="image7.jpg" alt=" Image 7"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 8.html"><img src="image8.jpg" alt=" Image 8"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 9.html"><img src="image9.jpg" alt=" Image 9"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 10.html"><img src="image10.jpg" alt=" Image 10"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 11.html"><img src="image11.jpg" alt=" Image 11"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 12.html"><img src="image12.jpg" alt=" Image 12"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 13.html"><img src="image13.jpg" alt=" Image 13"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 14.html"><img src="image14.jpg" alt=" Image 14"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 15.html"><img src="image15.jpg" alt=" Image 15"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 16.html"><img src="image16.jpg" alt=" Image 16"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 17.html"><img src="image17.jpg" alt=" Image 17"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 18.html"><img src="image18.jpg" alt=" Image 18"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 19.html"><img src="image19.jpg" alt=" Image 19"height="200px"></a></div>
+      <div class="gallery-item"><a href="image 20.html"><img src="image20.jpg" alt=" Image 20"height="200px"></a></div>
+    </div>
+  </div>
+</body>
+</html>
